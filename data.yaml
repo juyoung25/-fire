@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['fire']
+
+roboflow:
+  workspace: wdaw
+  project: fire-w6h8d
+  version: 2
+  license: Private
+  url: https://universe.roboflow.com/wdaw/fire-w6h8d/dataset/2
